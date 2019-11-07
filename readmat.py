@@ -1,6 +1,6 @@
 #put together some other's functions/classes and wrote some functions myself, Anthony Androulakis, 2019 
 #readmat.py, wrote some functions, found 1 function & 1 class on stackoverflow, read below for sources
-#How to run:
+#How to run: 
 #import readmat
 #readmat.load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False) #set one of the variable types to True
 #
