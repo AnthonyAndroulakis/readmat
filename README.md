@@ -14,7 +14,7 @@ python modules:
 3) `mat2dict(filename)`    
 4) `options(matobj)`    
 
-# How Structs are loaded:
+# How structs are loaded:
 The load function loads your matlab structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
 
 | MATLAB        | Python        |
