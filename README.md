@@ -15,13 +15,13 @@ python modules:
 + `options(matobj)`    
 
 # How Structs are loaded:
-The load function loads your matlab structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Examples below:      
+The load function loads your matlab structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
 
 | MATLAB        | Python        |
 | ------------- |:-------------:|
-| col 3 is      | myMat.DWI.dat[1][1][1] |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
+| DWI.dat(1,1,1)      | myMat.DWI.dat[1][1][1] |
+| DWI.hdr.private.hdr     | myMat.DWI.hdr.private.hdr      |
+| lesion_jhu.mean | myMat.lesion_jhu.mean      |
        
 # Known limitations:    
 ## The following Matlab data types are not supported:   
