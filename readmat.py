@@ -1,4 +1,4 @@
-#put together some other's functions/classes and wrote some functions myself, Anthony Androulakis, 2019
+#put together some other's functions/classes and wrote some functions myself, Anthony Androulakis, 2019 
 #readmat.py, wrote some functions, found 1 function & 1 class on stackoverflow, read below for sources
 #How to run:
 #import readmat
