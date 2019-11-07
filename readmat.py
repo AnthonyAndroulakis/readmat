@@ -194,4 +194,4 @@ def options(matobj): #find options of object, input is your object of type <clas
         dictmatobj=dict(zip(matobj.__dict__, map(str, matobj.__dict__.values())))
         return list(eval('{key: value for key, value in '+str(dictmatobj)+".items()"+' if not key.startswith("__") and not key.startswith("_")}.keys()'))
     except:
-        print("Incorrect type. Correct input is an object of type is of <class 'readmat.Struct'>, created with function mat2obj.")
+        print("Incorrect type. Correct input is an object of type <class 'readmat.Struct'>. In other words, a MATLAB struct that's been loaded into Python through the readmat.load function.")
