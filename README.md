@@ -62,5 +62,15 @@ The load function loads your MATLAB structure as an object in Python. What does 
 + table    
 + timetable    
 
+# Tips for overcoming limitations:
++ convert string arrays to char arrays in MatLab using the command convertStringsToChars(A) (https://www.mathworks.com/help/matlab/ref/convertstringstochars.html)
++ convert datetime to either a string (command: string(datetime)) or a struct (command: struct(datetime))
++ 
+       
+# Sources cited:
+Although I did write part of readmat's code , without the amazing stackoverflow answers from the following stackoverflow users, this project would not have be possible:
+users cs01 and jpapon: https://stackoverflow.com/a/29126361
+user andyvanee: https://stackoverflow.com/a/6573827
+      
 # License
 This software includes a [MIT license](https://opensource.org/licenses/MIT).
