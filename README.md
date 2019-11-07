@@ -1,4 +1,4 @@
-# mattools
+# readmat
 Helpful functions for loading .mat Matlab files into Python. Most data types are supported.       
        
 # Prerequisites:     
@@ -33,4 +33,4 @@ The load function loads your matlab structure as an object in Python. What does 
 + timetable    
 
 # Extras:
-All the necessary instructions are covered in this README document. However, if you'd like examples and/or extra explanations, look at the comments at the top of mattools.py.
+All the necessary instructions are covered in this README document. However, if you'd like examples and/or extra explanations, look at the comments at the top of readmat.py.
