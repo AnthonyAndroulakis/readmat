@@ -6,7 +6,6 @@ python3
 python modules:     
 + scipy    
 + numpy    
-+ itertools    
       
 # Functions:     
 1) `load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False)`     
