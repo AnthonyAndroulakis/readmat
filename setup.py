@@ -7,7 +7,7 @@ setup(
   name = 'readmat',
   scripts=['readmat.py'],
   py_modules=['readmat'],
-  version = '0.0.7',      
+  version = '0.0.1',      
   license='MIT',        
   description = 'Helpful functions for loading .mat MATLAB files into Python. Most data types are supported.',   
   long_description=long_description,
