@@ -2,4 +2,4 @@ language: python
 install:
   - pip install scipy
   - pip install numpy
-script: readmat.py
+script: python readmat.py
