@@ -9,7 +9,7 @@ setup(
   #packages = ['readmat'],   # Chose the same as "name"
   scripts=['readmat.py'],
   py_modules=['readmat'],
-  version = '0.0.7',      # Start with a small number and increase it with every change you make
+  version = '0.0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Helpful functions for loading .mat MATLAB files into Python. Most data types are supported.',   # Give a short description about your library
   long_description=long_description,
