@@ -16,7 +16,7 @@ python modules:
        
 # Known limitations:    
 ## The following Matlab data types are not supported:   
-+ string arrays   
++ string arrays (for example: "example" \[notice the pair of double quotes])   
 + datetime   
 + categorical   
 + table    
