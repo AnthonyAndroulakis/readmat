@@ -9,10 +9,10 @@ python modules:
 + itertools    
       
 # Functions:     
-`load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False)`     
-`mat2obj(filename)`     
-`mat2dict(filename)`    
-`options(matobj)`    
++ `load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False)`     
++ `mat2obj(filename)`     
++ `mat2dict(filename)`    
++ `options(matobj)`    
        
 # Known limitations:    
 ## The following Matlab data types are not supported:   
