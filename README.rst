@@ -8,7 +8,7 @@ MATLAB files into Python. Most data types are supported.
 
 Installation:
 =============
-
+| ...still tring to get pip to work..will remove this line when I get it to work...
 ::
 
    pip install readmat
