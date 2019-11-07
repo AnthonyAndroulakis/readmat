@@ -3,11 +3,6 @@
 
 readmat is a Python package with helpful functions for loading .mat MATLAB files into Python. Most data types are supported.
 
-# Installation:   
-```
-pip install readmat
-```
-
 # Prerequisites:     
 python 3    
 python modules:     
