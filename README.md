@@ -22,7 +22,7 @@ The load function loads your matlab structure as an object in Python. What does 
 | DWI.dat(1,1,1)      | myMat.DWI.dat[0][0][0] |
 | DWI.hdr.private.hdr     | myMat.DWI.hdr.private.hdr      |
 | lesion_jhu.mean | myMat.lesion_jhu.mean      |
-| data.grades(100) | myMat.data.grades[101]      |
+| data.grades(101) | myMat.data.grades[100]      |
        
 # Known limitations:    
 ## The following Matlab data types are not supported:   
