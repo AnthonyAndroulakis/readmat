@@ -19,9 +19,10 @@ The load function loads your matlab structure as an object in Python. What does 
 
 | MATLAB        | Python        |
 | ------------- |:-------------:|
-| DWI.dat(1,1,1)      | myMat.DWI.dat[1][1][1] |
+| DWI.dat(1,1,1)      | myMat.DWI.dat[0][0][0] |
 | DWI.hdr.private.hdr     | myMat.DWI.hdr.private.hdr      |
 | lesion_jhu.mean | myMat.lesion_jhu.mean      |
+| data.grades(0) | myMat.data.grades[1]      |
        
 # Known limitations:    
 ## The following Matlab data types are not supported:   
