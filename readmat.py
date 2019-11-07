@@ -19,7 +19,7 @@
 # Output of function option will be a list of your options. Example: ['fname', 'dim', 'dt', 'pinfo', 'mat', 'n', 'descrip', 'private']
 #
 #
-#The following Matlab data types are not supported:
+#The following MATLAB data types are not supported:
 # string arrays
 # datetime
 # categorical
@@ -27,11 +27,11 @@
 # timetable
 #
 #
-#What's a string array in Matlab? (notice the pair of double quotes below)
+#What's a string array in MATLAB? (notice the pair of double quotes below)
 # "example"
-#What's a char array in Matlab? (notice the pair of single quotes below)
+#What's a char array in MATLAB? (notice the pair of single quotes below)
 # 'example'
-#How to I convert from a string array to char array in Matlab?
+#How to I convert from a string array to char array in MATLAB?
 # convertStringsToChars("example")
 #
 #
