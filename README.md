@@ -1,5 +1,5 @@
 # readmat
-Helpful functions for loading .mat Matlab files into Python. Most data types are supported.       
+Helpful functions for loading .mat MATLAB files into Python. Most data types are supported.       
        
 # Prerequisites:     
 python3    
@@ -15,7 +15,7 @@ python modules:
 4) `options(matobj)`    
 
 # How structs are loaded:
-The load function loads your matlab structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
+The load function loads your MATLAB structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
 
 | MATLAB        | Python        |
 | ------------- |:-------------:|
@@ -25,7 +25,7 @@ The load function loads your matlab structure as an object in Python. What does 
 | data.grades(101) | myMat.data.grades[100]      |
        
 # Known limitations:    
-## The following Matlab data types are not supported:   
+## The following MATLAB data types are not supported:   
 + string arrays (for example: "example" \[notice the pair of double quotes])   
 + datetime   
 + categorical   
