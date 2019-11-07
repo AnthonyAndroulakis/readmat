@@ -189,9 +189,9 @@ def load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction
     else:
       print('Only .mat files are accepted.')
 
-def options(matobj): #find options of object, input is your object of type <class 'mattools.Struct'>, I wrote this
+def options(matobj): #find options of object, input is your object of type <class 'readmat.Struct'>, I wrote this
     try:
         dictmatobj=dict(zip(matobj.__dict__, map(str, matobj.__dict__.values())))
         return list(eval('{key: value for key, value in '+str(dictmatobj)+".items()"+' if not key.startswith("__") and not key.startswith("_")}.keys()'))
     except:
-        print("Incorrect type. Correct input is an object of type is of <class 'mattools.Struct'>, created with function mat2obj.")
+        print("Incorrect type. Correct input is an object of type is of <class 'readmat.Struct'>, created with function mat2obj.")
