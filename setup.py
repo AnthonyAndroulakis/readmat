@@ -6,7 +6,7 @@ with open('README.rst') as f:
 setup(
   name = 'readmat',         # How you named your package folder (MyLib)
   #packages = ['readmat'],   # Chose the same as "name"
-  version = '0.2',      # Start with a small number and increase it with every change you make
+  version = '0.0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Helpful functions for loading .mat MATLAB files into Python. Most data types are supported.',   # Give a short description about your library
   long_description=long_description,
@@ -14,7 +14,7 @@ setup(
   author = 'Anthony Androulakis & stackoverflow users cs01, jpapon, and andyvanee',                   # Type in your name
   author_email = 'aandroulakis@zoho.com',      # Type in your E-Mail
   url = 'https://github.com/AnthonyAndroulakis/readmat',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/AnthonyAndroulakis/readmat/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/AnthonyAndroulakis/readmat/archive/v_001.tar.gz',    # I explain this later on
   keywords = ['mat', 'matlab', 'python', 'utilities', 'tool', 'read', 'readmat', 'loadmat', 'load', 'struct', 'structure'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'scipy',
