@@ -23,4 +23,4 @@ python modules:
 + timetable    
 
 # Extras:
-All the necessary instructions are covered in this README document. However, if you'd like examples and/or extra explanations, look at the comments in mattools.py.
+All the necessary instructions are covered in this README document. However, if you'd like examples and/or extra explanations, look at the comments at the top of mattools.py.
