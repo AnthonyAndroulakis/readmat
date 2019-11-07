@@ -9,10 +9,10 @@ python modules:
 + itertools    
       
 # Functions:     
-+ `load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False)`     
-+ `mat2obj(filename)`     
-+ `mat2dict(filename)`    
-+ `options(matobj)`    
+1 `load(filename, isNumber=False, isCharArray=False, isStruct=False, isFunction=False, isArray=False, isMatrix=False, isBool=False, isInf=False, isNaN=False, isFunctionHandle=False)`     
+2 `mat2obj(filename)`     
+3 `mat2dict(filename)`    
+4 `options(matobj)`    
 
 # How Structs are loaded:
 The load function loads your matlab structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
