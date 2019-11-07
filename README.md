@@ -62,15 +62,17 @@ The load function loads your MATLAB structure as an object in Python. What does 
 + table    
 + timetable    
 
-# Tips for overcoming limitations:
-+ convert string arrays to char arrays in MatLab using the command convertStringsToChars(A) (https://www.mathworks.com/help/matlab/ref/convertstringstochars.html)
-+ convert datetime to either a string (command: string(datetime)) or a struct (command: struct(datetime))
-+ 
+# Tips for overcoming/bypassing limitations:
++ convert string arrays to char arrays, command: `char(stringarray)`
++ convert datetime to either a char array or a struct, command: `char(vardatetime)` or `struct(vardatetime)`    
++ convert categorical to double, command: `double(varcategorical)`
++ convert table to cell array, command: `arrayfun(@convertStringsToChars,arrayfun(@string,[vartable.Properties.VariableNames;table2cell(vartable)]),'UniformOutput',false)`
++ convert timetable to cell array, command: `horzcat(vertcat('Time',cellstr(char(vartimetable.Properties.RowTimes))), arrayfun(@convertStringsToChars,arrayfun(@string,[vartimetable.Properties.VariableNames;table2cell(vartimetable)]),'UniformOutput',false))`
        
 # Sources cited:
-Although I did write part of readmat's code , without the amazing stackoverflow answers from the following stackoverflow users, this project would not have be possible:
-users cs01 and jpapon: https://stackoverflow.com/a/29126361
-user andyvanee: https://stackoverflow.com/a/6573827
+Although I did write part of readmat's code , without the amazing stackoverflow answers from the following stackoverflow users, this project would not have be possible:      
+users cs01 and jpapon: https://stackoverflow.com/a/29126361     
+user andyvanee: https://stackoverflow.com/a/6573827     
       
 # License
 This software includes a [MIT license](https://opensource.org/licenses/MIT).
