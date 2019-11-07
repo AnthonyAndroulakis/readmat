@@ -62,7 +62,7 @@ The load function loads your MATLAB structure as an object in Python. What does 
 + table    
 + timetable    
 
-# Tips for overcoming limitations:
+# Tips for overcoming each limitation:
 + convert string arrays to char arrays, command: `char(stringarray)`
 + convert datetime to either a char array or a struct, command: `char(vardatetime)` or `struct(vardatetime)`    
 + convert categorical to double, command: `double(varcategorical)`
