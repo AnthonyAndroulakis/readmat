@@ -46,7 +46,7 @@ options(matobj)
 - Output: list of options
 
 # How structs are loaded:
-The load function loads your MATLAB structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in python. Pretty neat examples below:      
+The load function loads your MATLAB structure as an object in Python. What does this mean? Basically, the method of exploring the depths of your struct in Python is similar to what you'd do in MatLab. Pretty neat examples below:      
 
 | MATLAB        | Python        |
 | :-------------: |:-------------:|
