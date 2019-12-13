@@ -1,5 +1,6 @@
 # readmat
 [![Build Status](https://travis-ci.org/AnthonyAndroulakis/readmat.svg?branch=master)](https://travis-ci.org/AnthonyAndroulakis/readmat.svg?branch=master)
+[![Downloads](https://pepy.tech/badge/readmat)](https://pepy.tech/project/readmat)
 
 readmat is a Python package with helpful functions for loading .mat MATLAB files into Python. Most data types are supported.
 
