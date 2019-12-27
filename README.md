@@ -77,5 +77,5 @@ users cs01 and jpapon: https://stackoverflow.com/a/29126361
 user andyvanee: https://stackoverflow.com/a/6573827     
       
 # License
-Do whatever you want with the code. On the pypi website I had an MIT license...ignore that. I just haven't gotten to changing that yet. Do whatever you want with this code.     
+Do whatever you want with the code. On the pypi website I had an MIT license...ignore that. I just haven't gotten to changing that yet.    
 License: https://github.com/AnthonyAndroulakis/readmat/blob/master/LICENSE
