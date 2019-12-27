@@ -77,4 +77,5 @@ users cs01 and jpapon: https://stackoverflow.com/a/29126361
 user andyvanee: https://stackoverflow.com/a/6573827     
       
 # License
-This software includes a [MIT license](https://opensource.org/licenses/MIT).
+Do whatever you want with the code. On the pypi website I had an MIT license...ignore that. I just haven't gotten to changing that yet. Do whatever you want with this code.     
+License: https://github.com/AnthonyAndroulakis/readmat/blob/master/LICENSE
