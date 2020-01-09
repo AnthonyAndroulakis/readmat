@@ -10,7 +10,7 @@ pip install readmat
 ```
 
 # Prerequisites:     
-python 3    
+python 3 (tested with python 3)    
 python modules:     
 + scipy    
 + numpy    
